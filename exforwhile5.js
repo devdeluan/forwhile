@@ -1,8 +1,11 @@
 console.log("Exercício 5");
 
-let prompt = require ("prompt-sync")();
+let numeroAnterior = 0
+let numeroAtual = 1
+let proximoNumero = numeroAnterior + numeroAtual
 
-let numero = 1
+numeroAnterior = numeroAtual
+numeroAtual = numeroAnterior
 
 {
   for(let contador=0; contador<=10 ; contador++)

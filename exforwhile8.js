@@ -1,9 +1,11 @@
-console.log("Exercício 1");
+console.log("Exercício 8");
 
 let prompt = require("prompt-sync")();
 
-let numero 
 
-do {
-  numero = parseFloat (prompt("Digite a idade: "))
-} while (numero !=18)
+let numero = parseFloat (prompt("Digite a idade: "))
+
+ while (numero < 18) {
+ numero = parseFloat(prompt("Digite a idade: "))
+}
+console.log ("Maior de idade")
